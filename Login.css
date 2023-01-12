@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    margin-top: 11vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container > * {
+    height: 100%;
+    margin-top: 1em;
+}
+
+.container img{
+    width: 70%;
+    height: 80%;
+    margin-left: 5em;
+    margin-top: 5.5em;
+    transition: all .3s;
+}
+
+.container .main {
+    margin-top: -2em;
+    display: flex;
+}
+
+.login {
+    margin: auto;
+    width: fit-content;
+    padding: 2em;
+    padding-top: 1em;
+    flex: 1;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+
+.login form {
+    width: 90%;
+    letter-spacing: .2em;
+    margin-left: -3em;
+}
+
+.login form > * {
+    margin-bottom: .8em;
+}
+
+.login form .header {
+    margin-bottom: .3em;
+    letter-spacing: .05em;
+    font-size: 1.5em;
+}
+
+.login form input:first-child {
+    margin-bottom: .8em;
+}
+
+.login form input {
+    width: 80%;
+    padding: .5em;
+    padding-left: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #656565;
+    letter-spacing: .1em;
+}
+
+.container .bottom button {
+    background-color: #262626;
+    color: white;
+    padding: .3em 1.8em;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: .1em;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: .5em;
+}
